@@ -1,0 +1,140 @@
+@media (max-width: 1028px) {
+    .tree-image {
+        visibility: hidden;
+    }
+}
+
+.tree-image {
+    position: absolute;
+    width: 30%;
+    z-index: 1;
+    margin-left: 40rem;
+}
+
+.form {
+    z-index: 2;
+}
+
+
+/*All the above code is used to make the gif show behind the form */
+
+body {
+    background-color: #3E7C17;
+}
+
+/* Navbar */
+.navbar , .navbar-expand-lg {
+    height: 50px;
+    color: #fff;
+}
+
+.navbar h1 {
+    padding-top: 1.2rem;
+    color: #fff;
+    font-family: 'Indie Flower' , cursive;
+    font-weight: bolder;
+}
+
+.navbar-text , .navbar a{
+    font-family:'Indie Flower' , cursive;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.navbar a:hover {
+    color:#F4A442;
+}
+
+.tree-icon {
+    padding:0 1rem;
+    color: green;
+    margin-top: 0.75rem;
+}
+
+.tree-icon:hover {
+    color: rgb(12, 223, 12);
+}
+
+.navbar {
+    background-color:#125C13;
+}
+
+.row {
+    padding-top: 5.0rem;
+    background-color: #F4A442;
+    height: 700px;
+}
+
+.container-fluid {
+    text-align: center;
+}
+
+/* Signup Section */
+
+#signup {
+    padding: 0rem 10.0rem;
+    color: #fff;
+    font-family: 'Indie Flower' , cursive;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+#signup .btn-primary {
+    background-color: #3E7C17;
+    border-color: #3E7C17;
+}
+
+
+
+#text-about-trees {
+    padding: 4rem 0;
+    font-family: 'Indie Flower' , cursive;
+    font-size: 1.7rem;
+    font-weight: bold;
+    background-color: #F4A442;
+    color: #fff;
+}
+
+/* Download buttons */
+
+#download-buttons {
+    text-align:center;
+    background-color: #125C13;
+    color: #E8E1D9;
+    font-family: 'Indie Flower' , cursive;
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 2.0rem 0;
+}
+
+/* Footer */
+#footer {
+    text-align: center;
+    background-color: #E8E1D9;
+    padding: 1.9rem 0;
+    
+}
+
+.footer-icons {
+    color: #3E7C17;
+    padding-left: 0.75rem;
+    padding-bottom: 0.5rem;
+}
+
+.footer-icons:hover {
+    color: #F4A442;
+}
+
+
+#footer a {
+    color:#3E7C17;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#footer a:hover {
+    color:#F4A442;
+}

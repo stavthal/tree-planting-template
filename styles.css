@@ -2,139 +2,211 @@
     .tree-image {
         visibility: hidden;
     }
-}
-
-.tree-image {
-    position: absolute;
-    width: 30%;
-    z-index: 1;
-    margin-left: 40rem;
-}
-
-.form {
-    z-index: 2;
+    
 }
 
 
-/*All the above code is used to make the gif show behind the form */
-
-body {
-    background-color: #3E7C17;
+.container-fluid {
+    padding: 0;
+    margin: 0;
 }
 
-/* Navbar */
-.navbar , .navbar-expand-lg {
-    height: 50px;
-    color: #fff;
+.col-lg-6 {
+    padding-left: 2.0rem;
 }
+
+/* Fonts: Montserrat , Ubuntu , Sacramento , Merriweather */
+.navbar{
+    width: 100%;
+    margin: 0;
+}
+
+.nav-item {
+    padding-right: 1.2rem;
+}
+
+
+.navbar-icon {
+    color: rgba(146, 195, 93,1);
+}
+
+.navbar-icon:hover {
+    color: rgba(234, 220, 34,1);
+}
+
 
 .navbar h1 {
-    padding-top: 1.2rem;
-    color: #fff;
     font-family: 'Indie Flower' , cursive;
     font-weight: bolder;
-}
-
-.navbar-text , .navbar a{
-    font-family:'Indie Flower' , cursive;
     color: #fff;
-    font-weight: bolder;
-    font-size: 25px;
-}
-
-.navbar a:hover {
-    color:#F4A442;
-}
-
-.tree-icon {
-    padding:0 1rem;
-    color: green;
-    margin-top: 0.75rem;
-}
-
-.tree-icon:hover {
-    color: rgb(12, 223, 12);
 }
 
 .navbar {
     background-color:#125C13;
 }
 
+.navbar a{
+
+    color: rgba(146, 195, 93,1);
+}
+
+.navbar a:hover{
+    color: rgba(234, 220, 34,1);
+}
+
+
+
+/* Top-Row */
+
+.top-container{
+    background-image:linear-gradient(109.30721135047293deg, rgba(146, 195, 93,1) 4.927083333333334%,rgba(234, 220, 34,1) 97.84374999999999%);
+    ;
+    font-family: 'Indie Flower' , cursive;
+    color: #fff;
+    font-size: 1.6rem;
+    padding-bottom: 2.6rem;
+    text-align: left;
+}
+
+.big-heading {
+    font-size: 4.0rem;
+    text-decoration: underline;
+    padding-bottom: 1.2rem;
+}
+
+.big-heading:hover{
+    color: rgba(234, 220, 34,1);
+}
+
+
 .row {
-    padding-top: 5.0rem;
-    background-color: #F4A442;
-    height: 700px;
+    margin-top: 2.0rem; 
+    width: 100%;
 }
 
-.container-fluid {
+
+.tree-image {
     text-align: center;
-}
+    width: 100%;
 
-/* Signup Section */
-
-#signup {
-    padding: 0rem 10.0rem;
-    color: #fff;
-    font-family: 'Indie Flower' , cursive;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #fff;
-}
-
-#signup .btn-primary {
-    background-color: #3E7C17;
-    border-color: #3E7C17;
 }
 
 
+/* Features */
 
-#text-about-trees {
-    padding: 4rem 0;
-    font-family: 'Indie Flower' , cursive;
-    font-size: 1.7rem;
-    font-weight: bold;
-    background-color: #F4A442;
-    color: #fff;
+.white-section {
+    background-color: rgb(224, 221, 221);
 }
 
-/* Download buttons */
-
-#download-buttons {
-    text-align:center;
-    background-color: #125C13;
-    color: #E8E1D9;
-    font-family: 'Indie Flower' , cursive;
-    font-size: 24px;
+#features {
+    font-family: 'Montserrat' , sans-serif;
+    padding: 4.0rem 2.0rem;
+    text-align: center;
     font-weight: bolder;
-    padding: 2.0rem 0;
+    font-size: 1.0rem;
+    border-bottom: solid 3rem;
+    border-color: rgb(157, 234, 34);
+}
+
+#features h3 {
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: bold;
+
+
+}
+
+#features .icon {
+    color: rgba(146, 195, 93,1);
+}
+
+#features .icon:hover {
+    color: rgb(157, 234, 34);
+}
+
+
+/* Form */
+
+#form {
+    text-align: center;
+    padding: 2.0rem 4.0rem 4.0rem 4.0rem;
+    font-size: 1.9rem;
+    font-weight: bolder;
+    font-family: 'Indie Flower' , cursive;
+}
+
+
+
+#form .btn {
+    margin: 2.0rem 1.0rem;
+    background-color:rgb(157, 234, 34);
+
+}
+
+.form-frame {
+    padding: 5.0rem 5.0rem;
+}
+
+.form-box {
+    background-image:linear-gradient(109.30721135047293deg, rgba(146, 195, 93,1) 4.927083333333334%,rgba(234, 220, 34,1) 97.84374999999999%);
+    ;
+    border-radius: 2rem;
+}
+
+
+/* Call to Action */
+
+#cta {
+    background-image:linear-gradient(109.30721135047293deg, rgba(146, 195, 93,1) 4.927083333333334%,rgba(234, 220, 34,1) 97.84374999999999%);
+    ;
+    text-align: center;
+    font-family: 'Indie Flower' , cursive;
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: bolder;
+    padding: 3.0rem 0 1.4rem 0;
+}
+
+#cta h3 {
+    padding-bottom: 0.75rem;
+}
+
+#cta .btn {
+    margin-bottom: 2.0rem;
 }
 
 /* Footer */
 #footer {
     text-align: center;
-    background-color: #E8E1D9;
-    padding: 1.9rem 0;
-    
+    font-family: 'Ubuntu' , sans-serif;
+    color: rgb(175, 175, 175);
+    padding-bottom: 1.4rem;
+
 }
 
-.footer-icons {
-    color: #3E7C17;
-    padding-left: 0.75rem;
-    padding-bottom: 0.5rem;
+.footer-text {
+    padding-top:0.5rem;
 }
 
-.footer-icons:hover {
-    color: #F4A442;
+.social-icon {
+    margin-top: 1.0rem;
+    padding: 0.3rem;
+    color: rgba(146, 195, 93,1);
 }
 
+.social-icon:hover {
+    color: rgb(157, 234, 34);
+}
 
 #footer a {
-    color:#3E7C17;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: 'Ubuntu', sans-serif;
+    color: rgba(146, 195, 93,1);
+    text-decoration: underline;
+    font-weight: bolder;
 }
 
 #footer a:hover {
-    color:#F4A442;
+    color: rgb(157, 234, 34);
 }
+
+
+
+

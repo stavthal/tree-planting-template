@@ -1,104 +1,160 @@
 <!DOCTYPE html>
+<html>
+
 <head>
-    <title>DailyUI</title>
-    <meta charset="utf-8">
-    <!-- CSS -->
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <title>©TreePlant</title>
 
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/b69ca0a4dc.js" crossorigin="anonymous"></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Merriweather&family=Montserrat:wght@100;400;600&family=Sacramento&family=Ubuntu:wght@300;500;700&display=swap" rel="stylesheet">
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Merriweather&family=Montserrat:wght@100;400;600&family=Sacramento&family=Ubuntu:wght@300;500;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/b69ca0a4dc.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
 <body>
- <!-- Nav Bar -->
- <nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand" href="#"><i class="tree-icon fa-solid fa-tree"></i></a>
-    <h1>Plant a tree, harvest life.</h1>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-    <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-            <a class="nav-link" href="#">Why Plant?</a>
-          </li>
-      <li class="nav-item">
-        <a class="nav-link" href="mailto:stavros8003@gmail.com">Contact us!</a>
-      </li>
-    </ul>
-  </div>
-  </nav>
+    <div class="top-container container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg">
+
+        <a class="navbar-brand" href=""><i class="navbar-icon fa-2x fa-solid fa-tree"></i></a>
+        <h1>Plant a tree, harvest life.</h1>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Download</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
 
 
-<div class="container-fluid">
+      <!-- Title -->
 
+      <div class="row">
 
-    <div class="row">
-        <div class="col-lg-6 col-md-12 col-sm-12">
-            <section id="text-about-trees">
+        <div class="col-lg-6">
+          <h1 class="big-heading">Why Plant?</h1>
+          <h2>Trees fight climate change</h2>
+          <p>Wish you could do more than recycling and reducing your carbon footprint to combat climate change? Trees have you covered. Through photosynthesis, trees absorb harmful carbon dioxide, removing and storing the carbon and releasing oxygen back into the air.</p>
+
+          <h2>Trees clean the air and help you breathe</h2>
+          <p>Trees don’t just absorb CO2. They also absorb odors and pollutants like nitrogen oxides, ammonia, sulfur dioxide and ozone. It’s estimated that one tree can absorb nearly 10 pounds of polluted air each year and release 260 pounds of oxygen.</p>
+
+          <h2>Trees prevent soil erosion and rainwater runoff</h2>
+          <p>During heavy rains, water runoff finds its way to streams, lakes and wetlands, creating the potential for flooding. It also picks up and carries pollutants along the way. The EPA and the Center for Watershed Protection are recognizing the importance of trees in managing runoff. Leaf canopies help buffer the falling rain and their roots hold the soil in place, encouraging the water to seep into the ground rather than run off.</p>
+        </div>
+
+        <div class="tree-image col-lg-6">
             <img class="tree-image"src="https://media3.giphy.com/media/W28pvM23q5ZjZZurny/giphy.gif?cid=ecf05e47yto6b229thlrsppwh696urpay1ntye3r2w903074&rid=giphy.gif&ct=s" alt="tree-transparent-logo">
-            <p>Vegetation and green cover are crucial to our eco-system and critical natural resources, seeing as how they produce oxygen, which is essential for the existence and survival of nearly every species on this planet. So, by causing or playing a role in deforestation, we are not only endangering our lives, we are also putting the entire planet at risk.
-
-                We know how important trees are to our existence and for the well-being of the planet at large, which is why we have put together a number of slogans to promote afforestation and discourage deforestation and spread awareness among the people about the same.</p>  
-           </div>
-        </section>
-
-
-        <div class="form col-lg-6 col-md-12 col-sm-12">
-        <section id="signup">
-    <h1>Take action now!</h1>
-    <P>Provide us with your contact details so we can inform you about
-        the time and place that we will begin from!
-    </P>
-
-    <form>
-        <div class="mb-3">
-          <label for="email_input" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="email_input" aria-describedby="emailHelp">
-          <div id="emailHelp" style="color: #3E7C17" class="form-text">We'll never share your email and your personal information with anyone else.</div>
         </div>
-        <div class="mb-3">
-          <label for="pass_input" class="form-label">Name</label>
-          <input type="text" class="form-control" id="name_input">
-        </div>
-        <div class="mb-3">
-            <label for="pass_input" class="form-label">Surname</label>
-            <input type="text" class="form-control" id="surname_input">
-          </div>
-        <button type="submit" class="btn btn-primary" href="#">Submit</button>
-      </form>
-      </section>
+
       </div>
+    </div>
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">Planting is easy.</h3>
+          <p>The total effort needed to plant a tree is almost nothing in contrary to all the benefits that will come from such an action.</p>
         </div>
-</div>
-<div id ="download-buttons">
 
-<h1>Don't forget to check out our app for the latest about Tree Planting!</h1>
-<button type="button" class="btn btn-dark btn-lg dload-btn"><i class="fa-brands fa-apple"></i> Download</button>
-<button type="button" class="btn btn-outline-light btn-lg dload-btn"><i class="fa-brands fa-google-play"></i> Download</button>
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-heart fa-4x"></i>
+          <h3 class="feature-title">Save the Future.</h3>
+          <p>By planting just one tree you guarantee that the tree's total number in the world keeps increasing over the years.</p>
+        </div>
 
-</div>
+        <div class="feature-box col-lg-4">
+          <i class="icon fa-solid fa-sack-dollar fa-4x"></i>
+          <h3 class="feature-title">Save money</h3>
+          <p>Trees tend to provide shade in the summer and shelter to cold winter winds,so,it's win(d)-win(d)</p>
+        </div>
+      </div>
 
 
-<footer id="footer">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <i class="footer-icons fa-brands fa-twitter"></i><i class="footer-icons fa-brands fa-facebook-f"></i><i class="footer-icons fa-brands fa-instagram"></i><i class="footer-icons fa-solid fa-envelope"></i>
-    <p style="margin: 0;">© Copyright 2022 - Made by <a href=https://stavthal.github.io/my-site/">Stavros Thalassinos</a></p>
+    </div>
+  </section>
 
-</footer>
+  <!-- Form -->
+  <div class="form-frame">
+    <div class="form-box">
+  <section id="form">
+    <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input required type="email" class="form-control" id="email" aria-describedby="email" placeholder="Enter your email">
+          <small id="email" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Surname</label>
+            <input type="text" class="form-control" id="surname" placeholder="Enter your surname">
+          </div>
+       
+        <button type="submit" class="btn btn-lg">Submit</button>
+      </form>
+    </div>
+    </div>
+  </section>
+
+
+  <!-- Call to Action -->
+  <section id="cta">
+    <div class="container-fluid">
+
+      <h3>Get our app to learn the latest about Tree Planting.</h3>
+      <button class="download-button btn btn-lg btn-dark" type="button"><i class="fab fa-apple"></i> Download</button>
+      <button class="download-button btn btn-lg btn-outline-light" type="button"><i class="fab fa-google-play"></i> Download</button>
+    </div>
+    </section>
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p class="footer-text">© Copyright 2022 TreePlant - <a href="https://github.com/stavthal">Stavros Thalassinos</a></p>
+    </div>
+  </footer>
+
 
 </body>
-    
 
 </html>
